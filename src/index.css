@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import "tailwindcss";
+
+body{
+    font-family: "Inter", sans-serif;
+    
+}
+
+@theme {
+    --color-primary: #FF7A00;
+    --color-secondary: #2E2E2E;
+
+    --padding-DEFAULT: 2rem;
+    --padding-sm: 1rem;
+  }
