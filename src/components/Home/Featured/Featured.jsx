@@ -3,42 +3,48 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import FeaturedCard from "./FeaturedCard";
+import car1 from "../../../assets/img/car1.png";
+import car2 from "../../../assets/img/car2.png";
+import car3 from "../../../assets/img/car3.png";
+import car4 from "../../../assets/img/car4.png";
+import car5 from "../../../assets/img/car5.png";
+import car6 from "../../../assets/img/car6.png";
 
 const Featured = () => {
   const carsData = [
     {
       id: 0,
-      img: "/src/assets/images/car1.png",
+      img: car1,
       name: "Cadillac Escalade",
       price: "22,440",
     },
     {
       id: 1,
-      img: "/src/assets/images/car2.png",
+      img: car2,
       name: "Cadillac Escalade",
       price: "22,440",
     },
     {
       id: 2,
-      img: "/src/assets/images/car3.png",
+      img: car3,
       name: "Cadillac Escalade",
       price: "22,440",
     },
     {
       id: 3,
-      img: "/src/assets/images/car4.png",
+      img: car4,
       name: "Cadillac Escalade",
       price: "22,440",
     },
     {
       id: 4,
-      img: "/src/assets/images/car5.png",
+      img: car5,
       name: "Cadillac Escalade",
       price: "22,440",
     },
     {
       id: 5,
-      img: "/src/assets/images/car6.png",
+      img: car6,
       name: "Cadillac Escalade",
       price: "22,440",
     },
