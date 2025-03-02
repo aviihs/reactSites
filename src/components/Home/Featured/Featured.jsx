@@ -1,9 +1,112 @@
-import React from 'react'
+import React from "react";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
+import FeaturedCard from "./FeaturedCard";
 
 const Featured = () => {
-  return (
-    <div>Featured</div>
-  )
-}
+  const carsData = [
+    {
+      id: 0,
+      img: "/src/assets/images/car1.png",
+      name: "Cadillac Escalade",
+      price: "22,440",
+    },
+    {
+      id: 1,
+      img: "/src/assets/images/car2.png",
+      name: "Cadillac Escalade",
+      price: "22,440",
+    },
+    {
+      id: 2,
+      img: "/src/assets/images/car3.png",
+      name: "Cadillac Escalade",
+      price: "22,440",
+    },
+    {
+      id: 3,
+      img: "/src/assets/images/car4.png",
+      name: "Cadillac Escalade",
+      price: "22,440",
+    },
+    {
+      id: 4,
+      img: "/src/assets/images/car5.png",
+      name: "Cadillac Escalade",
+      price: "22,440",
+    },
+    {
+      id: 5,
+      img: "/src/assets/images/car6.png",
+      name: "Cadillac Escalade",
+      price: "22,440",
+    },
+  ];
 
-export default Featured
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 2000,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    cssEase: "linear",
+    arrows: false,
+    responsive: [
+      {
+        breakpoint: 1023,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 2,
+        },
+      },
+    ],
+  };
+  return (
+    <div>
+      <h1 className="font-bold text-center text-4xl">
+        Featured <span className="text-primary ">Cars</span>
+      </h1>
+      <p className="">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Est laudantium
+        consequuntur rerum mollitia id, nam veniam quae adipisci quos vero nihil
+        aspernatur. Maxime adipisci molestias doloremque possimus, laborum
+        distinctio incidunt!
+      </p>
+
+      <div className=""></div>
+      <Slider {...settings}>
+        {carsData.map((item) => (
+          <FeaturedCard
+            key={item.id}
+            img={item.img}
+            name={item.name}
+            price={item.price}
+          />
+        ))}
+      </Slider>
+    </div>
+  );
+};
+
+export default Featured;

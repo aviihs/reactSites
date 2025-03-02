@@ -1,9 +1,9 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route} from 'react-router-dom'
-import Home from './pages/Home'
-import About from './pages/About'
-import Car from './pages/Car'
-import Service from './pages/Service'
+import Home from './pages/Home.jsx'
+import About from './pages/About.jsx'
+import Car from './pages/Car.jsx'
+import Service from './pages/Service.jsx'
 
 const App = () => {
   return (
