@@ -13,3 +13,7 @@ body{
     --padding-DEFAULT: 2rem;
     --padding-sm: 1rem;
   }
+
+  .slick-slide > div {
+    margin: 0 10px;
+  }
