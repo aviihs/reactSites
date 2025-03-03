@@ -14,6 +14,7 @@ const FeaturedCard = ({id, img, name, price}) => {
         </div>
     </div>
   )
+  
 }
 
 export default FeaturedCard
