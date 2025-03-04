@@ -66,7 +66,7 @@ const Featured = () => {
         consectetur adipisicing elit. Maxime adipisci molestias doloremque possimus.
       </p>
 
-      <div className="mt-10 ">
+      <div className="container mx-auto mt-10 ">
         <Slider {...settings}>
           {carsData.map((item) => (
             <FeaturedCard
