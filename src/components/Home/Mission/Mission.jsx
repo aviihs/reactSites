@@ -5,7 +5,7 @@ const Mission = () => {
   return (
     <div className="container mx-auto my-10">
       <div className="">
-        <h1 className="font-bold text-4xl text-center">
+        <h1 className="font-bold text-4xl mb-12   text-center">
           Our <span className="text-primary">Mission</span>
         </h1>
       </div>

@@ -28,7 +28,7 @@ const Featured = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000, // More readable
-    cssEase: "ease-in-out",
+    cssEase: "linear",
     arrows: false,
     responsive: [
       {

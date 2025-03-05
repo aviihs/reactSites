@@ -71,19 +71,19 @@ const Navbar = () => {
           Home
         </Link>
         <Link
-          to="/"
+          to="/about"
           className="hover:text-primary transition duration-200 ease-linear"
         >
           About Us
         </Link>
         <Link
-          to="/"
+          to="/car"
           className="hover:text-primary transition duration-200 ease-linear"
         >
           Our Cars
         </Link>
         <Link
-          to="/"
+          to="/service"
           className="hover:text-primary transition duration-200 ease-linear"
         >
           Services
