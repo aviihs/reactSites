@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 const CarNewsCard = ({id, img, desc}) => {
   return (
     <div className='border-2 border-secondary rounded-md cursor-pointer ' key={id}>
