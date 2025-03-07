@@ -6,4 +6,4 @@ and yes break the component main work
 ---
 
 ## Preview Link:
-[Link.](www.car.bhusalshiva.com.np)
+[Link.](https://car.bhusalshiva.com.np/)
