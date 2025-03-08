@@ -5,7 +5,6 @@ import Footer from '../components/Footer'
 const Service = () => {
   return (
     <>
-    <Navbar />
     < Footer />
     </>
   )

@@ -5,8 +5,7 @@ import Footer from '../components/Footer'
 const Car = () => {
   return (
     <> 
-    <Navbar />
-    <Footer />
+    < Footer />
     </>
   )
 }
