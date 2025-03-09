@@ -13,7 +13,7 @@ const Navbar = () => {
   };
 
   return (
-    <header className="fixed w-full z-10  bg-secondary text-white py-1">
+    <header className="fixed top-0 w-full z-10  bg-secondary text-white py-1">
       <nav className=" px-8 py-5 md:p-5 container mx-auto items-center flex justify-between">
         <div className="flex items-center gap-2">
           <GiSteeringWheel size={35} className="text-primary" />
