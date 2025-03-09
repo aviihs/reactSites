@@ -7,5 +7,3 @@ and yes break the component main work
 
 ## Preview Link:
 [Link.](https://car.bhusalshiva.com.np/)
-
-
