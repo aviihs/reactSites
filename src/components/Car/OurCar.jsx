@@ -1,4 +1,11 @@
 import React from "react";
+import car1 from "../../assets/img/car1.png";
+import car2 from "../../assets/img/car2.png";
+import car3 from "../../assets/img/car3.png";
+import car4 from "../../assets/img/car4.png";
+import car5 from "../../assets/img/car5.png";
+import car6 from "../../assets/img/car6.png";
+import CarCard from "./CarCard";
 
 const OurCar = () => {
   const carsData = [
