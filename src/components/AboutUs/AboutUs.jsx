@@ -1,5 +1,6 @@
 import React from "react";
 import Vision from "./Vision";
+import Approach from "./Approach";
 
 const AboutUs = () => {
   return (
@@ -10,6 +11,7 @@ const AboutUs = () => {
         </h1>
       </div>
       <Vision />
+      <Approach />
     </div>
   );
 };
