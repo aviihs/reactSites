@@ -47,11 +47,24 @@ Visit : Link {http://localhost:5173}
 
 ## 🛠 Tech Stack
 
-- •	⚛ React – Component-based UI  
-- •	⚡ Vite – Fast and optimized build tool  
-- •	🎨 Tailwind CSS – Utility-first styling  
-- •	🚏 React Router – For seamless navigation
+- 	⚛ React – Component-based UI  
+- 	⚡ Vite – Fast and optimized build tool  
+- 	🎨 Tailwind CSS – Utility-first styling  
+- 	🚏 React Router – For seamless navigation
 
 
+## 🌱 Learning & Growth
 
+This project is part of my learning journey. 🚀
+I started building it while learning React & Tailwind CSS, and I’m constantly improving it.  
+
+🔹 If you’re also learning, feel free to explore, modify, and contribute!
+
+## 🔗 Live Preview:
+
+- 🚀 Check it out here: [Live_Link](https://car.bhusalshiva.com.np/)
+
+---
+
+🌟 Thank you for visiting WheelsDeal – Your journey starts here! 🚗💨
     
