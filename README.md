@@ -24,3 +24,22 @@ Follow these steps to run the project locally:
 ```bash
 git clone https://github.com/your-username/wheelsdeal.git
 cd wheelsdeal
+```
+
+### 2️⃣ Install dependencies
+
+```bash
+npm install
+```
+
+### 3️⃣ Run the development server
+
+```bash
+npm run dev
+```
+
+### 4️⃣ Open in your browser
+
+```bash
+Visit : Link {http://localhost:5173}
+```
