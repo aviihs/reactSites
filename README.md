@@ -43,3 +43,12 @@ npm run dev
 ```bash
 Visit : Link {http://localhost:5173}
 ```
+
+## 🛠 Tech Stack
+
+	•	⚛ React – Component-based UI  
+	•	⚡ Vite – Fast and optimized build tool  
+	•	🎨 Tailwind CSS – Utility-first styling  
+	•	🚏 React Router – For seamless navigation  
+
+    
