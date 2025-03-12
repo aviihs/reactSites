@@ -17,7 +17,7 @@ const OurService = () => {
   return (
     <div className='container mx-auto pt-24'>
     <h1 className='font-bold text-3xl text-center'>Our <span className='text-primary'>Service</span></h1>
-    <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-8">
+    <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-8 ">
         < ServiceCard icon={icon1} title="Tires & Wheels" />
         < ServiceCard icon={icon2} title="Exhaust System" />
         < ServiceCard icon={icon3} title="Cars Maintenance" />
