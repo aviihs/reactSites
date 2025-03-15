@@ -12,6 +12,7 @@ const Navbar = () => {
     setMenu(!menu);
   };
 
+  
   return (
     <header className="fixed top-0 w-full z-10  bg-secondary text-white py-1">
       <nav className=" px-8 py-5 md:p-5 container mx-auto items-center flex justify-between">
